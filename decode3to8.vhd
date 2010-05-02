@@ -4,7 +4,7 @@ USE IEEE.STD_LOGIC_1164.ALL;
 
 ENTITY decode3to8 IS
 GENERIC (
-n : INTEGER := 8
+n : INTEGER := 16
 );
 PORT (
 SEL : IN  STD_LOGIC_VECTOR(2 downto 0);
